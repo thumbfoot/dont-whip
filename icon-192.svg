@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="192" height="192">
+  <!-- Navy background with rounded corners (PWA icons are masked) -->
+  <rect width="512" height="512" rx="80" fill="#1a2744"/>
+  <!-- Rope arc — gray -->
+  <path d="M 80 380 Q 150 180 256 160 Q 362 140 430 300"
+        stroke="#9ba8bc" stroke-width="32" fill="none"
+        stroke-linecap="round"/>
+  <!-- Carabiner body — light gray oval -->
+  <ellipse cx="310" cy="230" rx="62" ry="100"
+           stroke="#d0d8e8" stroke-width="24" fill="none"/>
+  <!-- Carabiner gate (notch on right side) -->
+  <line x1="372" y1="200" x2="372" y2="260"
+        stroke="#1a2744" stroke-width="28" stroke-linecap="round"/>
+  <line x1="366" y1="200" x2="378" y2="200"
+        stroke="#9ba8bc" stroke-width="14" stroke-linecap="round"/>
+  <line x1="366" y1="260" x2="378" y2="260"
+        stroke="#9ba8bc" stroke-width="14" stroke-linecap="round"/>
+  <!-- Lock indicator dot -->
+  <circle cx="310" cy="340" r="14" fill="#e8a040"/>
+  <!-- App name text -->
+  <text x="256" y="460" text-anchor="middle"
+        font-family="-apple-system, Helvetica Neue, sans-serif"
+        font-size="62" font-weight="700" fill="#ffffff"
+        letter-spacing="-1">DON'T WHIP</text>
+</svg>
