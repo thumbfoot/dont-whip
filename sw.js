@@ -1,7 +1,7 @@
 // Don't Whip — Service Worker
 // Cache-first for local assets, network-only for YouTube
 
-const CACHE_NAME = 'dont-whip-v2';
+const CACHE_NAME = 'dont-whip-v3';
 
 // All local assets to pre-cache on install
 const PRECACHE_URLS = [
